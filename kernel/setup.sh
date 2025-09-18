@@ -16,14 +16,6 @@ else
 fi
 
 test -d "$GKI_ROOT/KernelSU" || git clone https://github.com/Natsume324/KernelSU_0.9.2_HISI KernelSU
-cd "$GKI_ROOT/KernelSU"
-git stash
-if [ "$(git status | grep -Po 'v\d+(\.\d+)*' | head -n1)" ]; then
-     git checkout main
-fi
-git pull
-git checkout main
-fi
 cd "$GKI_ROOT"
 
 echo "[+] GKI_ROOT: $GKI_ROOT"
