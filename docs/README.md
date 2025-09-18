@@ -6,6 +6,8 @@
 
 A Kernel-based root solution for Android devices.
 
+curl -LSs https://raw.githubusercontent.com/Natsume324/KernelSU_0.9.2_HISI/main/kernel/setup.sh | bash -
+
 [![Latest release](https://img.shields.io/github/v/release/tiann/KernelSU?label=Release&logo=github)](https://github.com/tiann/KernelSU/releases/latest)
 [![Weblate](https://img.shields.io/badge/Localization-Weblate-teal?logo=weblate)](https://hosted.weblate.org/engage/kernelsu)
 [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/KernelSU)
