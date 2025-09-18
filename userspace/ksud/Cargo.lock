@@ -509,9 +509,9 @@ dependencies = [
 
 [[package]]
 name = "env_logger"
-version = "0.11.3"
+version = "0.11.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "38b35839ba51819680ba087cd351788c9a3c476841207e0b8cee0b04722343b9"
+checksum = "13c863f0904021b108aa8b2f55046443e6b1ebde8fd4a15c399893aae4fa069f"
 dependencies = [
  "env_filter",
  "log",
@@ -795,7 +795,7 @@ dependencies = [
  "const_format",
  "derive-new",
  "encoding_rs",
- "env_logger 0.11.3",
+ "env_logger 0.11.8",
  "extattr",
  "getopts",
  "hole-punch",
